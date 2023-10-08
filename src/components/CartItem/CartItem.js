@@ -8,7 +8,7 @@ const CartItem = ({ item, quantity}) => {
             <h4> {item.name} </h4>
             <p>cantidad: {quantity}</p>
             <p>Precio: {item.price}</p>
-            <button onClick={() => clearCart(item.id)}>Eliminar</button>
+            <button className="Option" onClick={() => clearCart(item.id)}>Eliminar</button>
         </div>
     )
 }

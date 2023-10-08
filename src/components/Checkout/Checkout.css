@@ -35,3 +35,16 @@ h2 {
     border: 1px solid black;
     border-radius: 5px;
 }
+
+.button {
+    background-color: rgb(224, 71, 6);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block !;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -1,8 +1,9 @@
 import './ItemDetailContainer.css'
 import { useState, useEffect } from 'react'
-import { getFirestore, getDoc, doc } from 'firebase/firestore'
+import { getDoc, doc } from 'firebase/firestore'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom'
+import { db } from '../../services/firebase/firebaseConfig'
 
 
 const ItemDetailContainer = () => {
@@ -12,7 +13,6 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
 
-        const db = getFirestore();
 
         const docRef = doc(db, 'Products', itemId)
 

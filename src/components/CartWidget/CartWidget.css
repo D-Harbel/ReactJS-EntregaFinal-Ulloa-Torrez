@@ -1,8 +1,10 @@
-.cart {
-    width: 100px;
+.CartImg {
+    width: 2.90rem;
+    
 }
 
-.imgcart {
-    height: 30px;
-    width: 30px;
+.itemsIndicador {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
 }
